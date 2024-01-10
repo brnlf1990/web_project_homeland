@@ -1,0 +1,40 @@
+.header{
+   
+
+
+}
+
+
+.header__logo{
+    
+}
+
+.header__title{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 96px;
+line-height: 100px;
+/* or 104% */
+text-align: center;
+
+}
+
+.header__subtitle{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 36px;
+/* or 120% */
+text-align: center;
+}
+.header__container-image{
+    max-width: 100%;
+    display: grid;
+}
+
+.header__image{
+ display: grid;
+}
+
