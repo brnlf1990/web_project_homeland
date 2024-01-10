@@ -1,0 +1,54 @@
+.intro{
+  max-width: 828px;
+  max-height: 516px;
+  margin: auto;
+}
+
+.intro__container{
+  
+
+}
+
+.intro__title{
+  font-family: 'Inter Black';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 54px;
+  line-height: 58px;
+}
+
+.intro__subitle{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+}
+
+.intro__subitle-name{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+  text-align: end;
+
+}
+
+.intro__text{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 163%;
+  display: grid;
+  
+}
+
+.content__intro-gallery{
+  display: grid;
+  grid-template-columns: 284px 284px 284px 284px;
+  justify-content: center;
+  grid-gap: 10px;
+
+}

@@ -1,4 +1,11 @@
 @import url(../vendor/);
+@import url(../block/fonts.css);
 @import url(../block/page.css);
 @import url(../block/header.css);
+@import url(../block/intro.css);
+
+
+.body{
+    margin: 0;
+}
 
