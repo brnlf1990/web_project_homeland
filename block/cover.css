@@ -1,0 +1,58 @@
+.content__cover{
+    height: 740px;
+    background-image: url(../images/__background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #2A2C2F;
+    opacity: 0.9;
+}
+.cover__conteiner{
+    height: 740px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+  
+}
+
+.cover__column{
+    display: grid;
+    grid-template-rows: 20%;
+    text-align: center;
+}
+
+.cover__title{
+    margin: 0;
+    font-family: 'Inter Black';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 106%;
+    padding-bottom: 5%;
+}
+
+.cover__text{
+    font-family: 'Inter Regular';
+    font-style: normal;
+    font-size: 12px;
+    max-width: 200px;
+    line-height: 183%;
+    margin: 5px;
+}
+
+.cover__button{
+    width: 191px;
+    height: 48px;   
+    line-height: 22px;
+    background-color: rgba(2, 120, 254, 1);
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Inter SemiBold';
+    font-size: 18px;
+    border-radius: 4px;
+    border: 0;
+    }
+
+.cover__button:hover{
+    background-color: rgba(0, 99, 210, 1);
+}

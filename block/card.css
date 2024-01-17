@@ -1,0 +1,130 @@
+.content__places{
+    
+}
+
+.content__places{
+    
+    max-width: 987px;
+    margin: auto;
+
+}
+
+.content__card{
+
+}
+
+.card__place{
+    display: grid;
+    grid-template-columns: 0.95fr 1fr;
+    grid-template-rows: .1fr .1fr     ;
+    max-width   : 984px;
+    padding-bottom: 80px;
+}
+
+
+
+.card__place__title{
+    grid-area: 1 / 1 / 1 / 1;
+    font-family: 'Inter Black';   
+    font-style: normal;
+    font-size: 72px;
+    line-height: 106%;
+    align-self:auto;
+    margin: 0;
+}
+
+
+.card__place__image{
+    grid-area: 3 / 1 / 5 / 1;
+    height: 460px;
+    width: 460px;
+    padding-bottom: 30px;
+}
+
+.card__place__text-title{
+    grid-area: 1 / 2 / 1 / 2;
+    font-family: "Inter Regular";
+    font-size: 12px;
+    height: 22px;
+    padding-top: 185px;
+    padding-right: 400px;
+    text-transform: uppercase;
+    color: rgba(170, 170, 170, 1);
+    font-style: normal;
+    margin: 0;
+}
+
+.card__place__author{
+    grid-area:  2 / 2 / 2 / 2;
+    padding-bottom: 50px;
+    margin: 0;
+    font-family: "Inter Regular";
+    font-size: 18px;
+    
+}
+
+.card__place__first-text{
+    grid-area:  3 / 2 / 3 / 2;
+    font-family: "Inter Regular";
+    font-size: 18px;
+    line-height: 163%;
+    margin: 0;
+}
+
+.card__place__second-text{
+    grid-area: 4 / 2 / 4 / 2;
+    font-family: "Inter Regular";
+    font-size: 18px;
+    line-height: 163%;
+    margin: 0;
+
+}
+
+.card__place__third-text{
+    grid-area: 5 / 2 / 5 / 2;
+    font-family: "Inter Regular";
+    font-size: 18px;
+    line-height: 163%;
+    margin: 0;
+}
+
+.content__button{
+    grid-area: 5 / 1 / 5 / 1;
+    height: 48px;
+    width: 355px;
+    line-height: 22px;
+    background-color: rgba(2, 120, 254, 1);
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Inter SemiBold';
+    font-size: 18px;
+    border-radius: 4px;
+    border: 0;
+}
+
+.content__button:hover{
+    background-color: rgba(0, 99, 210, 1);
+}
+
+.card__place:nth-child(1) .card__place__title {
+    max-width: 460px;
+
+}
+
+.card__place:nth-child(2) .card__place__title{
+    max-width: 489px;
+    
+}
+
+.card__place:nth-child(2) .card__place__author{
+    max-width: 314px;
+}
+
+
+
+.card__place:nth-child(3) .card__place__first-text{
+    padding-bottom: 25px;
+}
+
+.card__place:nth-child(3) .card__place__first-text{
+    padding-bottom: 25px;
+}
