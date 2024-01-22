@@ -10,7 +10,7 @@
   max-width: 987px;
   max-height: 4382px;
 }
-.teste__container:nth-child(1) .card__place {
+.cards__container:nth-child(1) .card__place {
   max-width: 100%;
   max-height: 18%;
   display: grid;
@@ -19,7 +19,7 @@
   grid-gap: 6px;
 }
 
-.teste__container:nth-child(2) .card__place {
+.cards__container:nth-child(2) .card__place {
   max-width: 100%;
   max-height: 18%;
   display: grid;
@@ -28,7 +28,7 @@
   padding-bottom: 25px;
 }
 
-.teste__container:nth-child(3) .card__place {
+.cards__container:nth-child(3) .card__place {
   max-width: 100%;
   max-height: 18%;
   display: grid;
@@ -37,7 +37,7 @@
   padding-bottom: 25px;
 }
 
-.teste__container:nth-child(4) .card__place {
+.cards__container:nth-child(4) .card__place {
   max-width: 100%;
   max-height: 18%;
   display: grid;
@@ -45,7 +45,7 @@
   grid-template-rows: 14% 5% 15% 6% 27%;
 }
 
-.teste__container:nth-child(5) .card__place {
+.cards__container:nth-child(5) .card__place {
   max-width: 100%;
   max-height: 18%;
   display: grid;
@@ -131,7 +131,7 @@
     max-height: 4077px;
     margin: auto;
   }
-  .teste__container:nth-child(1) .card__place {
+  .cards__container:nth-child(1) .card__place {
     max-width: 100%;
     max-height: 19%;
     display: grid;
@@ -141,7 +141,7 @@
     padding-top: 25px;
   }
 
-  .teste__container:nth-child(2) .card__place {
+  .cards__container:nth-child(2) .card__place {
     max-width: 100%;
     max-height: 19%;
     display: grid;
@@ -150,7 +150,7 @@
     padding-bottom: 25px;
   }
 
-  .teste__container:nth-child(3) .card__place {
+  .cards__container:nth-child(3) .card__place {
     max-width: 100%;
     max-height: 19%;
     display: grid;
@@ -159,7 +159,7 @@
     padding-bottom: 25px;
   }
 
-  .teste__container:nth-child(4) .card__place {
+  .cards__container:nth-child(4) .card__place {
     max-width: 100%;
     max-height: 19%;
     display: grid;
@@ -167,7 +167,7 @@
     grid-template-rows: 9% 5% 5% 15% 20%;
   }
 
-  .teste__container:nth-child(5) .card__place {
+  .cards__container:nth-child(5) .card__place {
     max-width: 100%;
     max-height: 19%;
     display: grid;
@@ -241,7 +241,7 @@
     max-height: 6220px;
     margin: auto;
   }
-  .teste__container:nth-child(1) .card__place {
+  .cards__container:nth-child(1) .card__place {
     max-width: 100%;
     max-height: 19%;
     display: grid;
@@ -250,7 +250,7 @@
     grid-gap: 6px;
   }
 
-  .teste__container:nth-child(2) .card__place {
+  .cards__container:nth-child(2) .card__place {
     max-width: 100%;
     max-height: 19%;
     display: grid;
@@ -258,7 +258,7 @@
     grid-template-rows: 8% 4% 22% 32% 22%;
   }
 
-  .teste__container:nth-child(3) .card__place {
+  .cards__container:nth-child(3) .card__place {
     max-width: 100%;
     max-height: 19%;
     display: grid;
@@ -266,7 +266,7 @@
     grid-template-rows: 5% 3% 25% 31% 22%;
   }
 
-  .teste__container:nth-child(4) .card__place {
+  .cards__container:nth-child(4) .card__place {
     max-width: 100%;
     max-height: 19%;
     display: grid;
@@ -274,7 +274,7 @@
     grid-template-rows: 3% 4% 20% 42% 22%;
   }
 
-  .teste__container:nth-child(5) .card__place {
+  .cards__container:nth-child(5) .card__place {
     max-width: 100%;
     max-height: 19%;
     display: grid;
