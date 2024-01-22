@@ -1,46 +1,100 @@
-.header{
-   max-width: 1500px;
-   min-width: 768px;
-
-
+.header {
+  max-width: 1500px;
+  min-width: 768px;
 }
 
-.header__container-logo{
-   display: flex;
-   justify-content: center;
+.header__container-logo {
+  display: flex;
+  justify-content: center;
 }
 
-
-
-
-.header__title{
-   font-family: "Inter Black";
-   font-size: 96px;
-   line-height: 104%;
-   text-align: center;
-   margin: auto;
-   max-width: 793px;
-
+.header__title {
+  font-family: "Inter Black";
+  font-size: 96px;
+  line-height: 104%;
+  text-align: center;
+  margin: auto;
+  max-width: 793px;
 }
 
-.header__subtitle{
-   font-family: 'Inter Regular';
-   font-size: 30px;
-   line-height: 120%;
-   text-align: center;
-   max-width: 720px;
-   margin: auto;
-   padding-bottom: 48px;
+.header__subtitle {
+  font-family: "Inter Regular";
+  font-size: 30px;
+  line-height: 120%;
+  text-align: center;
+  max-width: 720px;
+  margin: auto;
+  padding-bottom: 48px;
 }
-.header__container-image{
-   min-height: 50vh;
-   width: 984px;
-   height: 615px;
-   margin: auto;
-
-}
-
-.header__image{
-   display: grid;
+.header__container-image {
+  min-height: 50vh;
+  width: 984px;
+  height: 615px;
+  margin: auto;
 }
 
+.header__image {
+  display: grid;
+}
+
+@media only screen and (min-width: 501px) and (max-width: 1160px) {
+  .header {
+    max-width: 1160px;
+    min-width: 768px;
+
+    .header__container-image {
+      min-height: 50vh;
+      width: 501px;
+      height: 480px;
+      margin: auto;
+    }
+
+    .header__image {
+      display: grid;
+      width: 501px;
+      height: 480px;
+    }
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 500px) {
+  .header {
+    max-width: 500px;
+    min-width: 320px;
+  }
+  .header__container-logo {
+    display: flex;
+    justify-content: center;
+    height: 51px;
+  }
+
+  .header__title {
+    font-family: "Inter Black";
+    font-size: 44px;
+    line-height: 110%;
+    text-align: center;
+    margin: auto;
+    max-width: 288px;
+  }
+
+  .header__subtitle {
+    font-family: "Inter Regular";
+    font-size: 16px;
+    line-height: 125%;
+    text-align: center;
+    max-width: 288px;
+    margin: auto;
+    padding-bottom: 48px;
+  }
+
+  .header__container-image {
+    min-height: 50vh;
+    width: 320px;
+    height: 200px;
+    margin: auto;
+  }
+  .header__image {
+    display: grid;
+    max-width: 320px;
+  }
+}

@@ -1,11 +1,11 @@
-.footer{
-    padding-top: 92px;
+.footer {
+  padding-top: 92px;
 }
 
-.footer__text{
-    font-family: 'Inter Regular';
-    line-height: 114%;
-    font-size: 14px;
-    color: #FFFFFF;
-    text-align: center;
+.footer__text {
+  font-family: "Inter Regular";
+  line-height: 114%;
+  font-size: 14px;
+  color: #ffffff;
+  text-align: center;
 }
