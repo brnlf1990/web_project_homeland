@@ -172,9 +172,6 @@
     grid-template-rows: 6% 8% 15% 16% 21%;
     padding-bottom: 200px;
   }
-  .card__place__title {
-    font-size: 42px;
-  }
 
   .card__place__title {
     font-family: "Inter Black";
