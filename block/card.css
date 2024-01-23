@@ -5,12 +5,13 @@
 
 .places__card {
   max-width: 987px;
-  max-height: 4382px;
+  max-height: 4466px;
   margin: auto;
 }
 .places__card-container:nth-child(1) .card-container {
   max-width: 100%;
   max-height: 18%;
+  display: -moz-grid;
   display: grid;
   grid-template-columns: 49% 43%;
   grid-template-rows: 9% 10% 17% 12% 27%;
@@ -20,6 +21,7 @@
 .places__card-container:nth-child(2) .card-container {
   max-width: 100%;
   max-height: 18%;
+  display: -moz-grid;
   display: grid;
   grid-template-columns: 49% 45%;
   grid-template-rows: 16% 7% 15% 15% 27%;
@@ -29,6 +31,7 @@
 .places__card-container:nth-child(3) .card-container {
   max-width: 100%;
   max-height: 18%;
+  display: -moz-grid;
   display: grid;
   grid-template-columns: 49% 45%;
   grid-template-rows: 9% 8% 15% 21% 27%;
@@ -38,6 +41,7 @@
 .places__card-container:nth-child(4) .card-container {
   max-width: 100%;
   max-height: 18%;
+  display: -moz-grid;
   display: grid;
   grid-template-columns: 49% 45%;
   grid-template-rows: 14% 5% 15% 6% 27%;
@@ -46,6 +50,7 @@
 .places__card-container:nth-child(5) .card-container {
   max-width: 100%;
   max-height: 18%;
+  display: -moz-grid;
   display: grid;
   grid-template-columns: 49% 45%;
   grid-template-rows: 19% 7% 45% 15% 3%;
@@ -124,7 +129,7 @@
 }
 
 @media only screen and (min-width: 501px) and (max-width: 1160px) {
-  .card-container {
+  .places__card {
     max-width: 720px;
     max-height: 4077px;
     margin: auto;
@@ -132,6 +137,7 @@
   .places__card-container:nth-child(1) .card-container {
     max-width: 100%;
     max-height: 19%;
+    display: -moz-grid;
     display: grid;
     grid-template-columns: 52% 46%;
     grid-template-rows: 6% 6% 9% 17% 20%;
@@ -142,6 +148,7 @@
   .places__card-container:nth-child(2) .card-container {
     max-width: 100%;
     max-height: 19%;
+    display: -moz-grid;
     display: grid;
     grid-template-columns: 52% 46%;
     grid-template-rows: 10% 6% 9% 15% 20%;
@@ -151,6 +158,7 @@
   .places__card-container:nth-child(3) .card-container {
     max-width: 100%;
     max-height: 19%;
+    display: -moz-grid;
     display: grid;
     grid-template-columns: 52% 46%;
     grid-template-rows: 5% 7% 9% 19% 20%;
@@ -160,6 +168,7 @@
   .places__card-container:nth-child(4) .card-container {
     max-width: 100%;
     max-height: 19%;
+    display: -moz-grid;
     display: grid;
     grid-template-columns: 52% 46%;
     grid-template-rows: 9% 5% 5% 15% 20%;
@@ -168,6 +177,7 @@
   .places__card-container:nth-child(5) .card-container {
     max-width: 100%;
     max-height: 19%;
+    display: -moz-grid;
     display: grid;
     grid-template-columns: 52% 46%;
     grid-template-rows: 6% 8% 15% 16% 21%;
@@ -231,7 +241,7 @@
 }
 
 @media screen and (min-width: 320px) and (max-width: 500px) {
-  .card-container {
+  .places__card {
     max-width: 320px;
     max-height: 6220px;
     margin: auto;
@@ -239,6 +249,7 @@
   .places__card-container:nth-child(1) .card-container {
     max-width: 100%;
     max-height: 19%;
+    display: -moz-grid;
     display: grid;
     grid-template-columns: 100%;
     grid-template-rows: 3% 4% 23% 30% 22%;
@@ -248,6 +259,7 @@
   .places__card-container:nth-child(2) .card-container {
     max-width: 100%;
     max-height: 19%;
+    display: -moz-grid;
     display: grid;
     grid-template-columns: 100%;
     grid-template-rows: 8% 4% 22% 32% 22%;
@@ -256,6 +268,7 @@
   .places__card-container:nth-child(3) .card-container {
     max-width: 100%;
     max-height: 19%;
+    display: -moz-grid;
     display: grid;
     grid-template-columns: 100%;
     grid-template-rows: 5% 3% 25% 31% 22%;
@@ -264,6 +277,7 @@
   .places__card-container:nth-child(4) .card-container {
     max-width: 100%;
     max-height: 19%;
+    display: -moz-grid;
     display: grid;
     grid-template-columns: 100%;
     grid-template-rows: 3% 4% 20% 42% 22%;
@@ -272,6 +286,7 @@
   .places__card-container:nth-child(5) .card-container {
     max-width: 100%;
     max-height: 19%;
+    display: -moz-grid;
     display: grid;
     grid-template-columns: 100%;
     grid-template-rows: 3% 6% 26% 36% 22%;
