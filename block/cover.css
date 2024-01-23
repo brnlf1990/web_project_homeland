@@ -1,4 +1,4 @@
-.content__cover {
+.cover {
   max-width: 1185px;
   margin: auto;
 }
@@ -61,7 +61,7 @@
 }
 
 @media only screen and (min-width: 501px) and (max-width: 1160px) {
-  .content__cover {
+  .cover {
     width: 768px;
     background-image: url(../images/__background.png);
     background-repeat: no-repeat;
