@@ -8,7 +8,7 @@
   max-height: 4382px;
   margin: auto;
 }
-.places__card_container:nth-child(1) .places__card {
+.places__card-container:nth-child(1) .card-container {
   max-width: 100%;
   max-height: 18%;
   display: grid;
@@ -17,7 +17,7 @@
   grid-gap: 6px;
 }
 
-.places__card_container:nth-child(2) .places__card {
+.places__card-container:nth-child(2) .card-container {
   max-width: 100%;
   max-height: 18%;
   display: grid;
@@ -26,7 +26,7 @@
   padding-bottom: 25px;
 }
 
-.places__card_container:nth-child(3) .places__card {
+.places__card-container:nth-child(3) .card-container {
   max-width: 100%;
   max-height: 18%;
   display: grid;
@@ -35,7 +35,7 @@
   padding-bottom: 25px;
 }
 
-.places__card_container:nth-child(4) .places__card {
+.places__card-container:nth-child(4) .card-container {
   max-width: 100%;
   max-height: 18%;
   display: grid;
@@ -43,7 +43,7 @@
   grid-template-rows: 14% 5% 15% 6% 27%;
 }
 
-.places__card_container:nth-child(5) .places__card {
+.places__card-container:nth-child(5) .card-container {
   max-width: 100%;
   max-height: 18%;
   display: grid;
@@ -51,7 +51,7 @@
   grid-template-rows: 19% 7% 45% 15% 3%;
 }
 
-.places__card__title {
+.card-container__title {
   grid-area: 1 / 1 / 1 / 1;
   font-family: "Inter Black";
   font-style: normal;
@@ -62,28 +62,28 @@
   padding-bottom: 48px;
 }
 
-.places__card__container {
+.card-container__container {
   grid-area: 1 / 2 / 1 / 2;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
 }
 
-.places__card__description-container {
+.card-container__description-container {
   grid-area: 2 / 2 / 6 / 2;
   grid-gap: 10px;
   display: flex;
   flex-direction: column;
 }
 
-.places__card__image {
+.card-container__image {
   grid-area: 3 / 1 / -4 / 1;
   height: 460px;
   width: 460px;
   padding-bottom: 30px;
 }
 
-.places__card__text-title {
+.card-container__text-title {
   grid-area: 1 / 2 / 1 / 2;
   font-family: "Inter Regular";
   font-size: 12px;
@@ -94,13 +94,13 @@
   margin: 0;
 }
 
-.places__card__author {
+.card-container__author {
   margin: 0;
   font-family: "Inter Regular";
   font-size: 18px;
 }
 
-.places__card__description {
+.card-container__description {
   font-family: "Inter Regular";
   font-size: 18px;
   line-height: 163%;
@@ -124,12 +124,12 @@
 }
 
 @media only screen and (min-width: 501px) and (max-width: 1160px) {
-  .places__card {
+  .card-container {
     max-width: 720px;
     max-height: 4077px;
     margin: auto;
   }
-  .places__card_container:nth-child(1) .places__card {
+  .places__card-container:nth-child(1) .card-container {
     max-width: 100%;
     max-height: 19%;
     display: grid;
@@ -139,7 +139,7 @@
     padding-top: 25px;
   }
 
-  .places__card_container:nth-child(2) .places__card {
+  .places__card-container:nth-child(2) .card-container {
     max-width: 100%;
     max-height: 19%;
     display: grid;
@@ -148,7 +148,7 @@
     padding-bottom: 25px;
   }
 
-  .places__card_container:nth-child(3) .places__card {
+  .places__card-container:nth-child(3) .card-container {
     max-width: 100%;
     max-height: 19%;
     display: grid;
@@ -157,7 +157,7 @@
     padding-bottom: 25px;
   }
 
-  .places__card_container:nth-child(4) .places__card {
+  .places__card-container:nth-child(4) .card-container {
     max-width: 100%;
     max-height: 19%;
     display: grid;
@@ -165,7 +165,7 @@
     grid-template-rows: 9% 5% 5% 15% 20%;
   }
 
-  .places__card_container:nth-child(5) .places__card {
+  .places__card-container:nth-child(5) .card-container {
     max-width: 100%;
     max-height: 19%;
     display: grid;
@@ -174,7 +174,7 @@
     padding-bottom: 200px;
   }
 
-  .places__card__title {
+  .card-container__title {
     font-family: "Inter Black";
     font-style: normal;
     font-size: 42px;
@@ -184,27 +184,27 @@
     padding-bottom: 48px;
   }
 
-  .places__card__container {
+  .card-container__container {
     grid-area: 1 / 2 / 1 / 2;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
   }
 
-  .places__card__description-container {
+  .card-container__description-container {
     grid-area: 2 / 2 / 6 / 2;
     grid-gap: 10px;
     display: flex;
     flex-direction: column;
   }
 
-  .places__card__image {
+  .card-container__image {
     height: 340px;
     width: 340px;
     padding-bottom: 30px;
   }
 
-  .places__card__text-title {
+  .card-container__text-title {
     grid-area: 1 / 2 / 1 / 2;
     font-family: "Inter Regular";
     font-size: 12px;
@@ -215,13 +215,13 @@
     margin: 0;
   }
 
-  .places__card__author {
+  .card-container__author {
     margin: 0;
     font-family: "Inter Regular";
     font-size: 18px;
   }
 
-  .places__card__description {
+  .card-container__description {
     font-family: "Inter Regular";
     font-size: 16px;
     line-height: 163%;
@@ -231,12 +231,12 @@
 }
 
 @media screen and (min-width: 320px) and (max-width: 500px) {
-  .places__card {
+  .card-container {
     max-width: 320px;
     max-height: 6220px;
     margin: auto;
   }
-  .places__card_container:nth-child(1) .places__card {
+  .places__card-container:nth-child(1) .card-container {
     max-width: 100%;
     max-height: 19%;
     display: grid;
@@ -245,7 +245,7 @@
     grid-gap: 6px;
   }
 
-  .places__card_container:nth-child(2) .places__card {
+  .places__card-container:nth-child(2) .card-container {
     max-width: 100%;
     max-height: 19%;
     display: grid;
@@ -253,7 +253,7 @@
     grid-template-rows: 8% 4% 22% 32% 22%;
   }
 
-  .places__card_container:nth-child(3) .places__card {
+  .places__card-container:nth-child(3) .card-container {
     max-width: 100%;
     max-height: 19%;
     display: grid;
@@ -261,7 +261,7 @@
     grid-template-rows: 5% 3% 25% 31% 22%;
   }
 
-  .places__card_container:nth-child(4) .places__card {
+  .places__card-container:nth-child(4) .card-container {
     max-width: 100%;
     max-height: 19%;
     display: grid;
@@ -269,7 +269,7 @@
     grid-template-rows: 3% 4% 20% 42% 22%;
   }
 
-  .places__card_container:nth-child(5) .places__card {
+  .places__card-container:nth-child(5) .card-container {
     max-width: 100%;
     max-height: 19%;
     display: grid;
@@ -277,7 +277,7 @@
     grid-template-rows: 3% 6% 26% 36% 22%;
   }
 
-  .places__card__title {
+  .card-container__title {
     grid-area: 1 / 1 / 1 /1;
     font-family: "Inter Black";
     font-style: normal;
@@ -286,20 +286,20 @@
     margin: 0;
     padding-bottom: 48px;
   }
-  .places__card__container {
+  .card-container__container {
     grid-area: 2 / 1 / 2 / 1;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
   }
 
-  .places__card__image {
+  .card-container__image {
     grid-area: 3 / 1 / 3 / 1;
     height: 320px;
     width: 320px;
     padding-bottom: 30px;
   }
-  .places__card__text-title {
+  .card-container__text-title {
     font-family: "Inter Regular";
     font-size: 12px;
     height: 22px;
@@ -308,20 +308,20 @@
     font-style: normal;
     margin: 0;
   }
-  .places__card__author {
+  .card-container__author {
     margin: 0;
     font-family: "Inter Regular";
     font-size: 18px;
   }
 
-  .places__card__description-container {
+  .card-container__description-container {
     grid-area: 4 / 1 / 5 / 1;
     grid-gap: 10px;
     display: flex;
     flex-direction: column;
   }
 
-  .places__card__description {
+  .card-container__description {
     font-family: "Inter Regular";
     font-size: 16px;
     line-height: 163%;
