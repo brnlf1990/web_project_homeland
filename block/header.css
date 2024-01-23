@@ -87,14 +87,18 @@
     padding-bottom: 48px;
   }
 
+  .header__container {
+    height: 400px;
+  }
+
   .header__container-image {
-    min-height: 50vh;
     width: 320px;
-    height: 200px;
     margin: auto;
+    height: 25%;
   }
   .header__image {
     display: grid;
     max-width: 320px;
+    max-height: 200px;
   }
 }
