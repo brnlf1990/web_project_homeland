@@ -1,4 +1,4 @@
-@import url(../vendor/);
+@import url(../vendor/normalize.css);
 @import url(../block/fonts.css);
 @import url(../block/page.css);
 @import url(../block/header.css);
@@ -7,8 +7,6 @@
 @import url(../block/cover.css);
 @import url(../block/footer.css);
 
-
-.body{
-    margin: 0;
+.body {
+  margin: 0;
 }
-

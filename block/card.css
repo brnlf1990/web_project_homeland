@@ -14,7 +14,7 @@
   display: -moz-grid;
   display: grid;
   grid-template-columns: 49% 43%;
-  grid-template-rows: 9% 10% 17% 12% 27%;
+  grid-template-rows: 9% 10% 17% 14% 27%;
   grid-gap: 6px;
 }
 
@@ -271,7 +271,7 @@
     display: -moz-grid;
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 5% 3% 25% 31% 22%;
+    grid-template-rows: 5% 3% 25% 34% 22%;
   }
 
   .places__card-container:nth-child(4) .card-container {
