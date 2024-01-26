@@ -12,3 +12,5 @@ fora do local definido.
 Para colocar o site em diferentes tamanhos, foi utilizado a função @media e é possível utilizar o site
 em Desktpos, Tablets e Smartphones.
 Foi colocado um link nos botões para compra com NFT.
+
+https://brnlf1990.github.io/web_project_homeland/
